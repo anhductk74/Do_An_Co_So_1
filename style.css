@@ -402,7 +402,7 @@ td:last-child{
 }
 .account-page{
     padding: 50px 0;
-    background: radial-gradient(#fff, #ffd6d6);
+    background: radial-gradient(#fbfbfb,#c65151);
 }
 .form-container{
     background: #fff;
