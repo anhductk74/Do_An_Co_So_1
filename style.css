@@ -496,15 +496,13 @@ form a{
 .contact{
     background-image: linear-gradient(45deg, #c65151,#a37373);
 }
-.col-2-ct h2{
+.col-2 h2{
     color: #808080;
 }
-.col-2-ct p{
+.col-2 p{
     margin: 20px 0;
 }
-.col-2-ct div{
-    margin-right: 100px;
-}
+
 .text-inf{
     margin-right: 170px;
 }
