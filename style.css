@@ -541,28 +541,33 @@ form a{
     color: #f7e1e1;
     text-align: center;
 }
+.about-content h1{
+    color: #F05454;
+}
 .about-content .row {
     margin: 0 20px;
 }
-.about-content .row .col-5{
+.about-content .row .col-4{
     padding: 30px 0;
     width: 20%;
     transition: transform 0.5s;
 }
-.about-content .row .col-5 p{
+.about-content .row .col-4 p{
     margin: 0 20px;
     color: #f7e1e1;
     text-align: left;
 }
-.about-content .row .col-5 h1{
+.about-content .row .col-4 h1{
     margin: 0 20px;
     color: #F05454;
     text-align: left;
 }
-.about-content .row .col-5:hover{
+.about-content .row .col-4:hover{
     background-color: rgb(226, 53, 53);
     border-radius: 10px;
     transform: translateY(-5px);
 }
+
+
 
 
