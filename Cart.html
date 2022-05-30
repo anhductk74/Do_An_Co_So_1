@@ -45,12 +45,12 @@
                         <img src="image/product-1.jpg">
                         <div>
                             <p>Laptop Apple MacBook Air M1 2020 16GB/256GB/7-core GPU</p>
-                            <small>Price: 1,260.00$</small> <br>
-                            <a href="">Remove</a>
+                            <small class="cart-price">Price: 1,260.00$</small> <br>
+                            <a href="" class="cart-remove">Remove</a>
                         </div>
                     </div>
                 </td>
-                <td><input type="number" value="1"></td>
+                <td><input type="number" value="1" class="cart-quantity"></td>
                 <td>1,260.00$</td>
             </tr>
 
@@ -84,7 +84,7 @@
                 <td>1.100.00$</td>
             </tr>
         </table>
-
+        
 
         <div class="total-price">
             <table>
@@ -97,11 +97,18 @@
                     <td>7.36$</td>
                 </tr>
                 <tr>
-                    <td>Total</td>
-                    <td>7.367.36$</td>
+                    <td class="total-title">Total</td>
+                    <td class="total-price">7.367.36$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <a href="" class="btn" onclick="buynow()">Buy Now &#8594;</a>
+                    </td>
                 </tr>
             </table>
         </div>
+        
     </div>
 
 
@@ -157,6 +164,12 @@
                 MenuItems.style.maxHeight = "0px";
             }
         }
+
+        function buynow(){
+            alert("Payment Success")
+        }
+
+        
     </script>
 
     
